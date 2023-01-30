@@ -1,0 +1,14 @@
+
+def sumsquare(l):
+    even=0
+    odd=0
+    m=[]
+    for i in range(l):
+        y=int(input("enter numbers="))
+        if(y%2==0):
+            even=even+y**2
+        else:
+            odd=odd+y**2
+    print([odd,even])
+l=int(input("enter the number of elements="))
+sumsquare(l)
