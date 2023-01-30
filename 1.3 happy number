@@ -1,0 +1,11 @@
+x=input("enter the positive integer=")
+for i in range(int(x)):
+    sum=0
+    for j in x:
+        sum=sum+int(j)**2
+        x=str(sum)
+    if(sum==1):
+        print("true")
+        break
+else:
+   print("false")        
