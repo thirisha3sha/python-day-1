@@ -1,0 +1,12 @@
+t=int(input("enter the time="))
+a=[]
+b=[]
+a=input("enter the no of guest entry=")
+b=input("enter the no of guest exit=")
+count=0
+guest=[]
+for i in(a,b):
+    count=count+a(i)-b(i)
+    guest.append(count)
+    d=max[guest]
+    print(d)
