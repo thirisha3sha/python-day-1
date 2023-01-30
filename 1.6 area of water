@@ -1,0 +1,13 @@
+H=list(map(int,input().split()))
+i=0
+j=len(H)-1
+ans=[]
+while (i < j):
+    if H[i] <= H[j]:
+        res = H[i] * (j - i)
+        i += 1
+    else:
+        res = H[j] * (j - i)
+        j-=1
+    ans.append(res)
+print(max(ans))
