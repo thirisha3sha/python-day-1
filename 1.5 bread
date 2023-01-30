@@ -1,0 +1,10 @@
+x=int(input("enter a number of fresh loaves purchased="))
+y=int(input("enter a numb er of old loaves purchased="))
+new_bread=185.00
+a=x*new_bread
+b=y*new_bread
+c=b*60/100
+print("regular price:Rs.",new_bread)
+print("amount of new loaves=",a)
+print("amount of old loaves=",c)
+print("total amount=",a+c)
