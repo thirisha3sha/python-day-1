@@ -1,0 +1,10 @@
+s=input("enter the string=")
+t=input("enter the string=")
+if(len(s)==len(t)):
+    for i in range(len(s)):
+        a=s.replace(s[i],t[i])
+        s=a
+    print(s==t)
+else:
+    print("false")
+
